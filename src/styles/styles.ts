@@ -18,7 +18,7 @@ export const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'Quicksand', sans-serif;
     }
 
 
@@ -57,9 +57,9 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
-        font-size: 56px;
+        font-family: 'Quicksand', sans-serif;
+        color: #000;
+        font-size: 45px;
         line-height: 1.18;
 
         @media only screen and (max-width: 890px) {
@@ -72,7 +72,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #000;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,7 +84,7 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #000;
 
         :hover {
             color: #2e186a;
